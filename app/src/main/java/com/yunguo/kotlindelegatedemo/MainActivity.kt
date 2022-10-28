@@ -21,6 +21,9 @@ class MainActivity : AppCompatActivity() {
         // CodePeople2 重写了委托类 Code 的coding 方法
         val codePeople2 = CodePeople2("张三")
         codePeople2.coding()
+
+
+        val lz by lazy { "" }
     }
 
 
